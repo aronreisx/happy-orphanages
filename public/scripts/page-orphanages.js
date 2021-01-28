@@ -1,7 +1,6 @@
 //Lisbon coordinates in DD (decimal degree): lon 38.71667, lat -9.13333
-const map = L.map("mapid").setView([38.73, -9.15], 13);
+const map = L.map("mapid").setView([38.73, -9.15], 14);
 
-//The parameter of the method addTo should be the name of the constant map
 //creates and adds a titleLayer
 L
 .tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png")
@@ -9,7 +8,7 @@ L
 
 //creates a icon
 const icon = L.icon({
-    iconUrl: "./public/images/map-market.svg",
+    iconUrl: "./public/images/map-marker.svg",
     iconSize: [58, 68],
     iconAnchor: [29, 68],
     popupAnchor: [170, 2]
@@ -25,7 +24,6 @@ const popup = L.popup({
 
 //creates and adds a market
 L
-.marker([38.73, -9.15])
+.marker([38.73, -9.15], { icon })
 .addTo(map)
-.bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-.openPopup();
+.bindPopup(popup);
