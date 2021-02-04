@@ -2,8 +2,7 @@
 const map = L.map("mapid").setView([38.73, -9.15], 14);
 
 //creates and adds a titleLayer
-L
-.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png")
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png")
 .addTo(map);
 
 //creates a icon
@@ -23,7 +22,6 @@ const popup = L.popup({
 }).setContent('Lar das meninas <a href="orphanage.html?id=1" class="choose-orphanage"> <img src="./public/images/arrow-white.svg"> </a>')
 
 //creates and adds a market
-L
-.marker([38.73, -9.15], { icon })
+L.marker([38.73, -9.15], { icon })
 .addTo(map)
 .bindPopup(popup);
