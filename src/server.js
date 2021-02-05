@@ -4,6 +4,9 @@ const express = require('express')
 //new lib for resolve different path's OS problems
 const path = require('path')
 
+//import module paaes.js
+const pages = require('./pages.js')
+
 //express function as a constant
 const server = express()
 
@@ -17,14 +20,11 @@ server
 .set('views', path.join(__dirname, 'views'))
 .set('view engine', 'hbs')
 
-//creating a route
-.get('/', (request, response) => {
-    //Tradicional way(that will no be used): sending the html to browser when resquested
-    /* return response.sendFile(path.join(__dirname, 'views', 'index.html')) */
-    
-    //Set response as a hbs's rendering
-    return response.render('index')
-})
+//application routes
+.get('/', pages.index)
+.get('/orphanage', pages.orphanage)
+.get('/orphanages', pages.orphanages)
+.get('/create-orphanage', pages.createOrphanage)
 
 //starting server at specified port
 server.listen(5500)
