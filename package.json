@@ -19,6 +19,7 @@
   "homepage": "https://github.com/aronreisx/happy-orphanage#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "hbs": "^4.1.1",
     "nodemon": "^2.0.7"
   }
 }
