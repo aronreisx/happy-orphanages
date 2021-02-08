@@ -13,6 +13,9 @@ const server = express()
 //calling function inside const
 server
 
+//must-do to use "body" from request
+.use(express.urlencoded({ extended: true }))
+
 //function for using static files
 .use(express.static('public'))
 
@@ -25,6 +28,8 @@ server
 .get('/orphanage', pages.orphanage)
 .get('/orphanages', pages.orphanages)
 .get('/create-orphanage', pages.createOrphanage)
+.post('/save-orphanage', pages.saveOrphanage)
+.post('/delete-orphanage', pages.deleteOrphanage);
 
 //starting server at specified port
 server.listen(5500)

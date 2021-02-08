@@ -21,11 +21,9 @@ module.exports = {
       orphanage.images = orphanage.images.split(',');
       orphanage.firstImage = orphanage.images[0];
 
-      if (orphanage.open_on_weekends == '0') {
-        orphanage.open_on_weekends = false;
-      } else {
-        orphanage.open_on_weekends = true;
-      }
+      //operator to check if orphanage opens on weekends or not an aply the correct value
+      orphanage.open_on_weekends == '0' ? orphanage.open_on_weekends = false : orphanage.open_on_weekends = true
+
       //orphanage[0].images;
       return res.render('orphanage', { orphanage });
     } catch (error) {
