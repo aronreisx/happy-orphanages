@@ -48,7 +48,7 @@
 
       <main class="animate-appear with-sidebar">
         <div class="orphanage-details">
-          <img src="/images/home.jpg" alt="{{orphanage.name}}" />
+          <img src="{{orphanage.firstImage}}" alt="{{orphanage.name}}" />
 
           <div class="images">
             {{#each orphanage.images}}
@@ -64,6 +64,7 @@
 
             <div class="map-container">
               <div id="mapid">
+                {{!-- Pin marker --}}
                 <span data-lat="{{orphanage.lat}}" data-lng="{{orphanage.lng}}"></span>
               </div>
               <footer>
@@ -95,7 +96,7 @@
               {{/if}}
             </div>
 
-            <a href="https://api.whatsapp.com/send?l=pt_BR&phone={{orphanage.whatsapp}}&text=Oi, quero conversar sobre visitas no  orfanato {{orphanage.name}}"
+            <a href="https://api.whatsapp.com/send?l=pt_BR&phone=+351{{orphanage.whatsapp}}&text=Oi, quero conversar sobre visitas no  orfanato {{orphanage.name}}"
               target="_blank" class="primary-button" type="button">
               <img src="/images/whatsapp.svg" alt="Chamar no contatinho" />
               Entrar em contato.

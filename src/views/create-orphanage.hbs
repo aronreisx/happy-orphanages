@@ -46,7 +46,7 @@
         </footer>
       </aside>
       <main class="animate-appear with-sidebar">
-        <form action="">
+        <form action="save-orphanage" onsubmit="validate(event)" method="POST">
           <fieldset>
             <legend>Dados</legend>
 
@@ -86,6 +86,7 @@
                   <input
                     name="images"
                     placeholder="Cole o link da foto aqui"
+                    type="url"
                     required
                   />
                   <span onclick="deleteField(event)"
@@ -133,17 +134,13 @@
                   onclick="toggleSelect(event)"
                   data-value="1"
                   type="button"
-                  class="active"
-                >
-                  Sim
-                </button>
+                  class="active">
+                  Sim</button>
                 <button
                   onclick="toggleSelect(event)"
                   data-value="0"
-                  type="button"
-                >
-                  Não
-                </button>
+                  type="button">
+                  Não</button>
               </div>
 
               <button type="submit" class="primary-button">Confirmar</button>
