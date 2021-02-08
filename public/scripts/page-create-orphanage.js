@@ -69,7 +69,6 @@ function deleteField(event) {
         // Using return inside if to break the operation case True, return will exit function
         return
     }
-
     //delete .new-upload field
     span.parentNode.remove()
 }
@@ -88,4 +87,16 @@ function toggleSelect(event) {
     const input = document.querySelector('[name="open_on_weekends"]')
     //defines input value as same as data-value
     input.value = button.dataset.value
+}
+
+function validate(event){
+    /* could try pushing lat and lng to an array and use Object.values(array).includes('') */
+    const lat = document.querySelector('[name=lat]').value
+    const lng = document.querySelector('[name=lng]').value
+
+    if(lat == '' || lng == ''){
+        //validate if lat or lng are empty
+        event.preventDefault()
+        alert('Por favor, escolha o local do orfanato no mapa')
+    }
 }

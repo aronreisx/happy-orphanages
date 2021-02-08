@@ -6,8 +6,12 @@ const options = {
   zoomControl: false,
 };
 
+//get values from html
+const lat = document.querySelector('span[data-lat').dataset.lat
+const lng = document.querySelector('span[data-lng').dataset.lng
+
 //Lisbon coordinates in DD (decimal degree): lon 38.71667, lat -9.13333
-const map = L.map("mapid", options).setView([38.73, -9.15], 14);
+const map = L.map("mapid", options).setView([lat, lng], 14);
 
 //creates and adds a titleLayer
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(map);
@@ -18,7 +22,11 @@ const icon = L.icon({
   iconSize: [58, 68],
   iconAnchor: [29, 68],
   popupAnchor: [170, 2],
-});
+})
+
+//create and add a marker
+L.marker([lat, lng], { icon }).addTo(map)
+
 
 //creates and adds a market
 L.marker([38.73, -9.15], { icon }).addTo(map);
