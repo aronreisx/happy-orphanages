@@ -25,6 +25,14 @@
     background: #36cf82;
 }
 
+.primary-button.delete {
+    background: #ff767b;
+}
+
+.primary-button.delete:hover {
+    background: #ff555a;
+}
+
 .primary-button img {
     margin-right: 1.6rem;
 }
