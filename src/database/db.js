@@ -1,4 +1,3 @@
-
 const Database = require("sqlite-async");
 
 function execute(db) {
