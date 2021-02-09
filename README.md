@@ -26,9 +26,9 @@ This project was developed using the following technologies:
 
 ## 📃 Project
 
-This project aims to facilitate orphanage visits near you 💜
+This project aims to facilitate orphanage visits near you :yellow_heart:
 
-This project was developed during the **[Next Level Week](https://nextlevelweek.com/)**, given by the **[@Rocketseat](https://github.com/Rocketseat)** institution between October's 12 to 18 of 2020.
+This project was developed during the **[Next Level Week](https://nextlevelweek.com/)**, an educational event given by **[@Rocketseat](https://github.com/Rocketseat)** institution between October's 12 to 18 of 2020.
 
 ## 💻 How to execute
 
@@ -58,10 +58,12 @@ $ npm install
 $ npm start
 ```
 
-> The server will start through port `5500` - now you're abble to access the application at `http://localhost:5500`. Enjoy!
+### Accessing the application
+
+> The server will start through port **`5500`** - now you're abble to access the application at **`http://localhost:5500`**. Enjoy!
 
 ## 📝 License
 
 This repository are under **MIT LICENSE**. For detailed informations, read the file [LICENSE](LICENSE.md). 
-<br>
+<br><br><br>
 <p align="center">Made with ♥ by [Aron Reis](https://www.linkedin.com/in/aronreis/)</p>
