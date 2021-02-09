@@ -1,5 +1,5 @@
 {
-  "name": "happy-orphanage",
+  "name": "happy-orphanages",
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aronreisx/happy-orphanage.git"
+    "url": "git+https://github.com/aronreisx/happy-orphanages.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aronreisx/happy-orphanage/issues"
+    "url": "https://github.com/aronreisx/happy-orphanages/issues"
   },
-  "homepage": "https://github.com/aronreisx/happy-orphanage#readme",
+  "homepage": "https://github.com/aronreisx/happy-orphanages#readme",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1",
