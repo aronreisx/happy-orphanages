@@ -13,7 +13,7 @@
 
 <p align="center">
   <img alt="Happy" src=".github/happy_screen.gif" width="100%">
-</p>
+</p><br>
 
 ## 🚀 Technologies
 
@@ -65,5 +65,5 @@ $ npm start
 ## 📝 License
 
 This repository are under **MIT LICENSE**. For detailed informations, read the file [LICENSE](LICENSE.md). 
-<br><br><br>
-<p align="center">Made with ♥ by [Aron Reis](https://www.linkedin.com/in/aronreis/)</p>
+
+<br><br><br><br><p align="center">Made with ♥ by [Aron Reis](https://www.linkedin.com/in/aronreis/)</p>
