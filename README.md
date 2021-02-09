@@ -68,7 +68,7 @@ $ npm start
 This repository are under **MIT LICENSE**. For detailed informations, read the file [LICENSE](LICENSE.md). 
 
 <br><br><br>
-######<h6 align="center">Final Considerations</h6>
+<h4 align="center">Final Considerations</h6>
 <p align="center">If you find any issue, please go to [Issue's section](https://github.com/aronreisx/happy-orphanages/issues) and open a new issue describing what happened.</p>
 <p align="center">If you have anything to contribute with this project, you're free to make a [Pull request](https://github.com/aronreisx/happy-orphanages/pulls). I'll be very Happy</p>
 <br>
