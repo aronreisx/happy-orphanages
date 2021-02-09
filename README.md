@@ -23,8 +23,8 @@ This project was developed using the following technologies:
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/)
 - [SQLite](https://www.sqlite.org/index.html)
-- [Handlebars](https://handlebarsjs.com/)
 - [Leaflet](https://leafletjs.com/)
+- [Handlebars](https://handlebarsjs.com/)
 
 ## 📃 Project
 
