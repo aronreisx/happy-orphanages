@@ -36,7 +36,7 @@ This project was developed during the **[Next Level Week](https://nextlevelweek.
 
 ### Requirements
 
-To follow the process bellow you should have installed [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/). If you're considering to edit, [VSCode](https://code.visualstudio.com/) recommendable.
+To follow the process bellow you should have installed [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/). If you're considering to edit, [VSCode](https://code.visualstudio.com/) is recommendable.
 
 ### Setting up the application
 
