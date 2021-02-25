@@ -1,6 +1,6 @@
 <div align="center">
     <img alt="Logo Happy" src=".github/logo.svg" />
-    <h3>An application to easily connect people to orphanages :smiley:</h3>
+    <h3>An application to connect people to orphanages easier :smiley:</h3>
 </div>
 
 <p align="center">
