@@ -1,13 +1,33 @@
-<h1 align="center">
-    <img alt="Happy" title="Happy" src=".github/logo.svg" />
-    <br>
-</h1>
+<div align="center">
+    <img alt="Logo Happy" src=".github/logo.svg" />
+    <h3>An application to easily connect people to orphanages :smiley:</h3>
+</div>
 
 <p align="center">
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-execute">How to execute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
+   <a href="https://www.linkedin.com/in/aronreis/">
+      <img alt="Aron Reis" src="https://img.shields.io/badge/-AronReis-0A66C2?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+
+  <img alt="Languages" src="https://img.shields.io/github/languages/count/aronreisx/happy-orphanages?color=%4d0000">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/aronreisx/happy-orphanages?color=orange">
+
+  <a href="https://github.com/aronreisx/README-happy-orphanages/commits/master">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/aronreisx/happy-orphanages?color=ff69b4">
+  </a>
+    
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-8622f8">
+   <a href="https://github.com/aronreisx/happy-orphanages/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/aronreisx/happy-orphanages?style=social">
+  </a>
+
+</p>
+
+<p align="center">
+  <a href="#-technologies">🚀Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">📃Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-execute">💻How to execute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">📝License</a>
 </p>
 
 <br>
