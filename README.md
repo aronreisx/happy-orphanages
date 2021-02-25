@@ -42,12 +42,12 @@ To follow the process bellow you should have installed [Git](https://git-scm.com
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/emanuelmassafera/happy-nlw3-discovery.git
+$ git clone https://github.com/aronreisx/happy-orphanages.git
 ```
 
 ```bash
 # Access the project folder through the terminal
-$ cd happy-nlw3-discovery
+$ cd happy-orphanages
 ```
 
 ```bash
