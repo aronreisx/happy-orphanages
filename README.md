@@ -48,9 +48,9 @@ This project was developed using the following technologies:
 
 ## 📃 Project
 
-This project aims to facilitate orphanage visits near you :yellow_heart:
+This project aims to facilitate visits to orphanages close to its users. :yellow_heart:
 
-This project was developed during the **[Next Level Week](https://nextlevelweek.com/)**, an educational event given by **[@Rocketseat](https://github.com/Rocketseat)** institution between October's 12 to 18 of 2020.
+The project was structured in order to be quickly executed and makes use of some of the most widespread web technologies today. This is a Node.js application, which uses the Express.js framework to handle with routes and requests, the Leaflet library to assist in OpenStreetMap's rendering, SQLite as database (very light and very well documented), together with the sqlite-async library and the Handlebars template engine, it is possible to receive data from asynchronous requests from the database and process them dynamically for the browser, making the user experience better.
 
 ## 💻 How to execute
 
