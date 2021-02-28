@@ -32,9 +32,9 @@
 
 <br>
 
-<p align="center">
+<div align="center">
   <img alt="Happy" src=".github/happy_screen.gif" width="100%">
-</p><br>
+</div><br>
 
 ## 🚀 Technologies
 
