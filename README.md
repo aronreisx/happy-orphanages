@@ -1,5 +1,5 @@
 <div align="center">
-    <img alt="Logo Happy" src=".github/logo.svg" />
+    <img alt="Logo Happy" src="https://github.com/aronreisx/projects/blob/master/happy-orphanages/logo.svg" />
     <h3>An application to connect people to orphanages easier :smiley:</h3>
 </div>
 
@@ -33,7 +33,7 @@
 <br>
 
 <div align="center">
-  <img alt="Happy" src=".github/happy_screen.gif" width="100%">
+  <img alt="Happy" src="https://github.com/aronreisx/projects/blob/master/happy-orphanages/screen.gif" width="100%">
 </div><br>
 
 ## 🚀 Technologies
