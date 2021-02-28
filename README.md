@@ -1,13 +1,33 @@
-<h1 align="center">
-    <img alt="Happy" title="Happy" src=".github/logo.svg" />
-    <br>
-</h1>
+<div align="center">
+    <img alt="Logo Happy" src=".github/logo.svg" />
+    <h3>An application to connect people to orphanages easier :smiley:</h3>
+</div>
 
 <p align="center">
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-execute">How to execute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
+   <a href="https://www.linkedin.com/in/aronreis/">
+      <img alt="Aron Reis" src="https://img.shields.io/badge/-AronReis-0A66C2?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+
+  <img alt="Languages" src="https://img.shields.io/github/languages/count/aronreisx/happy-orphanages?color=%4d0000">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/aronreisx/happy-orphanages?color=orange">
+
+  <a href="https://github.com/aronreisx/README-happy-orphanages/commits/master">
+    <img alt="Last commit" src="https://img.shields.io/github/last-commit/aronreisx/happy-orphanages?color=ff69b4">
+  </a>
+    
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-8622f8">
+   <a href="https://github.com/aronreisx/happy-orphanages/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/aronreisx/happy-orphanages?style=social">
+  </a>
+
+</p>
+
+<p align="center">
+  <a href="#-technologies">🚀Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">📃Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-execute">💻How to execute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">📝License</a>
 </p>
 
 <br>
@@ -36,18 +56,18 @@ This project was developed during the **[Next Level Week](https://nextlevelweek.
 
 ### Requirements
 
-To follow the process bellow you should have installed [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/). If you're considering to edit, [VSCode](https://code.visualstudio.com/) recommendable.
+To follow the process bellow you should have installed [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/). If you're considering to edit, [VSCode](https://code.visualstudio.com/) is recommendable.
 
 ### Setting up the application
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/emanuelmassafera/happy-nlw3-discovery.git
+$ git clone https://github.com/aronreisx/happy-orphanages.git
 ```
 
 ```bash
 # Access the project folder through the terminal
-$ cd happy-nlw3-discovery
+$ cd happy-orphanages
 ```
 
 ```bash
